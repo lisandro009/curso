@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            background-color: #0e2933;
+            align-items: center;
+        }
+        .contenedor{
+            height: 290px;
+            width: 960px;
+            position: relative;
+            background: linear-gradient(#83bcf2,#ebedf0);
+            margin: 0 auto;
+        }
+
+        .dino{
+            width: 84px;
+            height: 84px;
+            position: absolute;
+            bottom: 22px;
+            left: 42px;
+            background: url(dino.png) repeat-x 0px 0px;
+            background-size: 336px 84px;
+            background-position-x: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="dino"></div>
+    </div>
+</body>
+</html>
